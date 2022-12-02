@@ -1,0 +1,227 @@
+#HeaderComp .logo,
+#HeaderPage .logo {
+    width: 134px;
+}
+
+#HeaderComp .text
+#HeaderComp .text {
+    margin-top: 5px;
+}
+
+
+#BannerComp h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#BannerComp span{
+    color: #FF3D47;
+}
+
+#BannerComp p{
+    font-size: 18px;
+    color: black;
+}
+
+#BannerComp .img-banner {
+    width: 603px;
+    height: 464px;
+}
+
+#BannerComp .content {
+    margin-top: 154px;
+}
+
+#BannerComp {
+    margin-top: 75px;
+}
+
+#KategoriComp .logo {
+    width: 100%;
+    height: auto;
+}
+
+#KategoriComp {
+    margin-top: 67px;
+}
+
+#KategoriComp .content{
+    margin-top: 60px;
+}
+
+#KategoriComp h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#SliderComp {
+    margin-top: 157px;
+}
+
+#SliderComp .d-block {
+    padding: 20px;
+}
+
+
+#RekomendasiComp .card,
+#TeratasComp .card {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.137);
+}
+
+#RekomendasiComp .card-img-top,
+#TeratasComp .card-img-top {
+    width: 100%;
+    height: 232px;
+    object-fit: contain;
+}
+
+#RekomendasiComp {
+    margin-top: 142px;
+}
+
+#RekomendasiComp .col-lg-3{
+    margin-top: 47px;
+}
+
+#RekomendasiComp h1,
+#TeratasComp h1,
+#AccessoriesComp h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#RekomendasiComp h2,
+#TeratasComp h2,
+#AccessoriesComp h2 {
+    font-size: 20px;
+}
+
+#RekomendasiComp .fa-eye,
+#AccessoriesComp .fa-eye {
+    color: #FF3D47;
+
+}
+
+
+#AccessoriesComp .card {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.137);
+}
+
+#AccessoriesComp .img-fluid {
+    width: 100%;
+    height: 177px;
+    object-fit: contain;
+}
+
+#AccessoriesComp {
+    margin-top: 192px;
+}
+
+#AccessoriesComp .col-lg-4 {
+    margin-top: 56px;
+}
+
+#FooterComp .bg-footer {
+    width: 100%;
+    height: 56px;
+    background: Linear-gradient(to right, #FF3D47, #346BBE) ;
+}
+
+#FooterComp {
+    margin-top: 225px;
+}
+
+#FooterComp h3 {
+    color: white;
+}
+
+#BreadCrumb,
+#ProductComp {
+    margin-top: 91px;
+    margin-bottom: 20px;
+}
+
+#BreadCrumb a,
+#ProductComp a {
+    text-decoration: none;
+    font-weight: 200;
+    color: black;
+}
+
+#BreadCrumb .fa-house {
+    color: #FF3D47;
+}
+
+#ProductComp .fa-circle-arrow-left {
+    color: #FF3D47;
+}
+
+#ProductComp a {
+    font-weight: bold;
+}
+
+#DetailContent .fa-circle-arrow-right,
+#DetailContent .fa-circle-arrow-left {
+    color: #FF3D47;
+}
+
+#DetailContent .img-detail {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+#DetailContent .bg-detail {
+    padding-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.137);
+}
+
+#DetailContent .bg-deskripsi {
+    padding: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height: 210px;
+    background-color: #FAF4F4;
+    overflow-y: scroll;
+}
+
+#DetailContent input {
+    width: 70px;
+}
+
+#DetailContent .btn-outline-danger:hover {
+    background-color: rgb(243, 247, 242);
+    color: red;
+}
+
+#DetailContent .btn-danger {
+    margin-left: 10px;
+}
+
+#DetailContent h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#DetailContent p {
+    font-weight: 500;
+    font-size: 30px;
+    color: #9F9F9F;
+}
+
+#DetailContent span {
+    font-weight: 500;
+    font-size: 30px;
+    color: #FF3D47;
+}
