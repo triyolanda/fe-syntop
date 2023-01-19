@@ -1,100 +1,113 @@
 <template>
   <div id="KeranjangKosong">
-    <HeaderPage />
-    <div class="Breadcrumb-back">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="#"
-                  ><i class=""></i><i class=""></i
-                  ><i class="fa-solid fa-circle-arrow-left"></i> Keranjang</a
-                >
-              </li>
-            </ol>
+    <div class="container">
+      <div class="row mb-10">
+        <div class="col">
+          <div class="form-group">
+            <h2>History Parking</h2>
+            <label for="History Parking"></label>
+            <textarea name="" id="" rows="5" placeholder="Input"></textarea>
           </div>
         </div>
       </div>
-    </div>
-    \
-    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-4">
+          <div class="form-group">
+            <label for="History Parking"></label>
+            <textarea name="" id="" rows="1" placeholder=""></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col">
+          <h3>Mobil</h3>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-1">
+          <h1>Karyawan</h1>
+          <div class="box">
+            <div class="header-body">
+              <p class="header">MOBIL1</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h1>Tamu</h1>
+          <div class="box">
+            <div class="header-body">
+              <p class="header">MOBIL2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col">
+          <h3>Motor</h3>
+        </div>
+      </div>
       <div class="row">
         <div class="col">
-          <img
-            class="img-picture"
-            src="../assets/keranjang_kosong.png"
-            alt="..."
-          />
+          <h1>Karyawan</h1>
+          <div class="box">
+            <div class="header-body">
+              <p class="header">MOTOR1</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-7">
+          <h1>Tamu</h1>
+          <div class="box">
+            <div class="header-body">
+              <p class="header">MOTOR2</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-2">
-        <h1>Keranjangmu Masih Kosong....</h1>
-        <div class="btn btn-danger">Belanja</div>
-      </div>
-    </div>
-    <div id="FooterComp">
-      <div class="row text-center">
-          <div class="col-lg-12">
-              <div class="bg-footer p-2">
-                  <h3>© Copyright Syntop Laptopindo, 2022</h3>
-              </div>
-          </div>
-      </div>
-  </div>
   </div>
 </template>
 
 <script>
 // import component
-import HeaderPage from "@/components/HeaderPage.vue";
 export default {
   name: "KeranjangKosong",
   // regist component
-  components: {
-    HeaderPage,
-  },
+  components: {},
 };
 </script>
 
 <style>
-#KeranjangKosong .breadcrumb-back {
-  margin-top: 91px;
-  margin-bottom: 20px;
+#KeranjangKosong .form-group textarea {
+  width: 100%;
+  padding: 1rem 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-#KeranjangKosong .breadcrumb-back a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #ff3d47;
+#KeranjangKosong p {
+text-align: center;
+font-size: 40px;
+margin-top: 20px;
+padding: 250px;
 }
 
-#KeranjangKosong .fa-circle-arrow-left {
-  color: #ff3d47;
-}
-
-#KeranjangKosong a {
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-}
-
-#KeranjangKosong .img-picture {
-  width: 300px;
+#KeranjangKosong .header {
+  width: 200px;
   height: 300px;
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-#KeranjangKosong h1 {
-  font-weight: bold;
-  font-size: 10px;
+#KeranjangKosong .box {
+background: yellow;
+}
+
+#KeranjangKosong h1{
   text-align: center;
 }
 
-
+#KeranjangKosong h3{
+font-weight: bold;
+text-align: center;
+padding: 5%;
+font-size: 50px;
+}
 </style>
